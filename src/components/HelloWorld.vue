@@ -9,6 +9,11 @@ export default {
   name: 'just test travis ci project',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      name: 'auiii'
+    }
   }
 }
 </script>
