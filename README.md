@@ -17,3 +17,11 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## build 
+
+``` bash
+npm i 
+npm run build
+cp -r ${JENKINS_HOME}/workspace/${JOB_NAME}/dist/* /www/ci.rbut.cc/
+```
